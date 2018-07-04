@@ -5,11 +5,12 @@ var passages = [
         "Now I am good at not looking your way when we are in the same room. I admit, I still read your poems (out of vanity, looking for shards of me). Maybe I haven’t learned anything, I’m still using you to make me feel special. You use me too though."
 ];
 
-function Text (currentText, nextText, ready, queued) {
+function Text (currentText, nextText, ready, queued, count) {
     this.currentText = currentText;
     this.nextText = nextText;
     this.ready = ready;
     this.queued = queued;
+    this.count =count;
 }
 function Section (id, contains){
     this.id = id;
@@ -26,10 +27,11 @@ var texts = [];
 var sections = []; 
 var userLock = false;
 
-function translate (text, times = 3) {
+function translate (text) {
     var toGarble = {}
     toGarble.text = text.currentText;
-    toGarble.count = times;
+    toGarble.count = text.count;
+    if (text.count < 5) {text.count += 1;}
     var xml = new XMLHttpRequest;
     xml.open("POST", "https://google-garble.herokuapp.com/plainText");
     xml.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
@@ -92,7 +94,7 @@ function update () {
 
 function onLoad () {
     for (var i = 0; i < passages.length; i++){
-        texts.push(new Text (passages[i], passages[i], true, false));
+        texts.push(new Text (passages[i], passages[i], true, false, 2));
     }
     sections.push (new Section ("text1", [texts[0]]))
     sections.push (new Section ("text2", [texts[1]]))
@@ -115,6 +117,6 @@ function onLoad () {
         return false;
     };
     replaceText (texts, null);
-    console.log("loaded :)");
+    console.log("new loaded :)");
 }
 onLoad();
