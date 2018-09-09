@@ -7,8 +7,7 @@ var passages = [
     "You became the only person I had kissed in an elevator, a fact I wouldn’t tell you. My hands shook until you held them. I was scooped up into the palm of you.",
     "Mostly I just wanted to feel special, and sometimes you were good for that (like you were good at making me fear I didn’t look gay enough to be with you; My hair still long, legs still shaved and still wearing skirts).",
     "I fell for the stacks of poetry on your desk and your near-condescending wisdom. That was how it was. Hands held when nobody was looking.",
-    "We liked pretending we were in love which was fun at the time and then hurt like hell for days after. No one tells you how dangerous that is. 
-",
+    "We liked pretending we were in love which was fun at the time and then hurt like hell for days after. No one tells you how dangerous that is.",
     "Now I am good at not looking your way when we are in the same room.  I still see you everywhere.",
     "World like a window with the smudge of your handprint all over. I admit, I still read your poems (out of vanity, looking for shards of me).",
     "It almost occured to me that I haven’t learned anything at all. Love spilling out for a dead thing, like blood on the butchers block."
