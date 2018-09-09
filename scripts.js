@@ -1,16 +1,17 @@
 var passages = [
-    "After slipping off your porch last night, we lost our common language.", 
-    "(It was not saying what we were thinking. It was taking every feeling  and shoving it deep into our pockets like a used tissue.).", 
-    "My hands tucking your hair behind your ears or waving hello became eyes snapped the other way and a text to end it. Just for now you said. Which meant always.",
-    "I came late, fear-shaken and wondering if you were looking out the window down on me, walking under the street-lit nighttime. Wondering if I looked ok but I would check in my phone’s camera on the elevator ride up.", 
-    "You became the only person I had kissed in an elevator, a fact I wouldn’t tell you. I thought it was important.", 
-    "In a couple of weeks I gave up and showed you the picture I accidentally took the first time, where I look so frightened. It made you laugh. If I could make you laugh, I could fall into trusting you.",
-    "Mostly I just wanted to feel special, and sometimes you were good for that (like you were good at making me fear I didn’t look gay enough to be with you; My hair still long, legs still shaved and still wearing skirts).", 
-    "I fell for the stacks of poetry on your desk and your near-condescending wisdom. That was how it was. Hands held when nobody was looking.", 
-    "We liked pretending we were in love which was fun at the time and then hurt like hell for days after. No one tells you how dangerous that is.",
-    "Now I am good at not looking your way when we are in the same room.",
-    "I admit, I still read your poems (out of vanity, looking for shards of me).", 
-    "Maybe I haven’t learned anything, I’m still using you to make me feel special. You use me too though."
+    "After slipping off your porch last night, we lost our common language. (It was not saying what we were thinking. It was taking every feeling  and shoving it deep into our pockets like a used tissue.).",
+    "My hands tucking your hair behind your ears or waving hello became eyes snapped the other way and a text to end it. You hands turned to machines,  untying everything that knotted us together.",
+    "A threat of scattering or cracking into flame.  Just for now you said. Which meant always.",
+    "I came late, fear-shaken but still swinging in to your every night.",
+    "Wondering if you were looking out the window down on me, folded into  the street-lit dark. Wondering if I looked ok but I would check in my phone’s camera on the elevator ride up.",
+    "You became the only person I had kissed in an elevator, a fact I wouldn’t tell you. My hands shook until you held them. I was scooped up into the palm of you.",
+    "Mostly I just wanted to feel special, and sometimes you were good for that (like you were good at making me fear I didn’t look gay enough to be with you; My hair still long, legs still shaved and still wearing skirts).",
+    "I fell for the stacks of poetry on your desk and your near-condescending wisdom. That was how it was. Hands held when nobody was looking.",
+    "We liked pretending we were in love which was fun at the time and then hurt like hell for days after. No one tells you how dangerous that is. 
+",
+    "Now I am good at not looking your way when we are in the same room.  I still see you everywhere.",
+    "World like a window with the smudge of your handprint all over. I admit, I still read your poems (out of vanity, looking for shards of me).",
+    "It almost occured to me that I haven’t learned anything at all. Love spilling out for a dead thing, like blood on the butchers block."
 ];
 
 function Text (currentText, nextText, ready, queued, count) {
